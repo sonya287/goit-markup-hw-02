@@ -1,0 +1,21 @@
+body {
+  background-color: ;
+  color: ;
+}
+.studia-link {
+  color: #212121;
+}
+.studia-link:hover,
+.studia-link:focus {
+  color: #2196f3;
+}
+.logo {
+  color: #2196f3;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+  color: #2196f3;
+}
+.contact-link:hover {
+  color: #2196f3;
+}

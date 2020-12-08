@@ -1,7 +1,32 @@
-body {
-  background-color: ;
-  color: ;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-bg: #ffffff;
+  --secondary-bg: #f5f4fa;
+  --heder-footer-bg: #2f303a;
+  --accent-color: #2196f3;
 }
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg);
+}
+
+/* фон #FFFFFF; */
+/* вторичный фон  #e5e5e5; */
+/* цвет заголовков #212121; */
+/* цвет основного текста #757575; */
+/* акцент #2196F3; */
+/* фон хедер, футер #FFFFFF; */
+
+/* section 1 */
+.hero-title {
+  color: #ffffff;
+}
+.plus {
+  display: none;
+}
+
 .studia-link {
   color: #212121;
 }
@@ -12,10 +37,50 @@ body {
 .logo {
   color: #2196f3;
 }
+.page-header > .logo {
+  color: var(--accent-color);
+}
+.portfolio-link {
+  color: #212121;
+}
 .portfolio-link:hover,
 .portfolio-link:focus {
   color: #2196f3;
 }
-.contact-link:hover {
+.contact {
+  color: #212121;
+}
+.contact:hover,
+.contact:focus {
   color: #2196f3;
+}
+.adress-nav:hover,
+.adress-nav:focus {
+  color: #2196f3;
+}
+.email {
+  color: #212121;
+}
+.email:hover,
+.email:focus {
+  color: #2196f3;
+}
+.tel {
+  color: #212121;
+}
+.tel:hover,
+.tel:focus {
+  color: #2196f3;
+}
+/* стили текста */
+.section-text {
+  color: #757575;
+}
+/* стили заголовков к тексту */
+.section-title {
+  color: #212121;
+}
+/* стили заголовков к секций */
+.section {
+  color: #212121;
 }

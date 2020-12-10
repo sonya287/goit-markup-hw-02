@@ -33,13 +33,16 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+.link-button {
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  align-items: center;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .plus {
@@ -52,10 +55,10 @@ li {
 
 a {
   text-decoration: none;
-} 
+}
 
- .logotip {
-  var(--primary-text-color);
+.logotip {
+  color: var(--primary-text-color);
 }
 
 .logo {
@@ -96,7 +99,7 @@ a {
   color: var(--accent-color);
 }
 
-.attention > .attention-title {
+.attention-title {
   color: var(-primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -105,9 +108,10 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
 }
 
-.attention > .attention-text {
+.attention-text {
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -115,6 +119,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .engage-title {
@@ -126,6 +131,7 @@ a {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .page-header {
@@ -164,7 +170,7 @@ a {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  }
+}
 
 .buttons:hover,
 .buttons:focus {
@@ -187,4 +193,3 @@ a {
   font-size: 16px;
   letter-spacing: 1.8;
 }
-

@@ -50,6 +50,10 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+} 
+
  .logotip {
   var(--primary-text-color);
 }

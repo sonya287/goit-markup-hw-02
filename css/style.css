@@ -1,15 +1,15 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --primary-bg: #ffffff;
-  --secondary-bg: #f5f4fa;
-  --heder-footer-bg: #2f303a;
+  --primary-background: #ffffff;
+  --secondary-background: #f5f4fa;
+  --header-footer-background: #2f303a;
   --accent-color: #2196f3;
 }
 
 body {
-  color: var(--primary-text-color);
-  background-color: var(--primary-bg);
+  color: #212121;
+  background-color: var(--primary-background);
 }
 
 /* фон #FFFFFF; */
@@ -17,70 +17,170 @@ body {
 /* цвет заголовков #212121; */
 /* цвет основного текста #757575; */
 /* акцент #2196F3; */
-/* фон хедер, футер #FFFFFF; */
 
 /* section 1 */
-.hero-title {
-  color: #ffffff;
+.hero {
+  background-color: var(--header-footer-background);
 }
+.hero-title {
+  color: var(--primary-background);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  text-align: center;
+}
+
 .plus {
   display: none;
 }
 
-.studia-link {
-  color: #212121;
+li {
+  list-style: none;
 }
-.studia-link:hover,
-.studia-link:focus {
-  color: #2196f3;
+
+ .logotip {
+  var(--primary-text-color);
 }
+
 .logo {
   color: #2196f3;
 }
-.page-header > .logo {
-  color: var(--accent-color);
+
+.adress-nav {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.portfolio-link {
-  color: #212121;
-}
-.portfolio-link:hover,
-.portfolio-link:focus {
-  color: #2196f3;
-}
-.contact {
-  color: #212121;
-}
+
 .contact:hover,
 .contact:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--primary-background);
+}
+
+.site-nav > link {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.attention > .attention-title {
+  color: var(-primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.attention > .attention-text {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.engage-title {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.page-header {
+  color: var(-primary-text-color);
+}
+
+.site-nav > link:hover,
+.site-nav > link:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: var(--header-footer-background);
+}
+
+.footer > .logo-text {
+  color: #ffffff;
+}
+
+.footer > .contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio */
+
+.buttons {
+  color: var(-primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  }
+
+.buttons:hover,
+.buttons:focus {
   color: #2196f3;
 }
-.adress-nav:hover,
-.adress-nav:focus {
-  color: #2196f3;
-}
-.email {
-  color: #212121;
-}
-.email:hover,
-.email:focus {
-  color: #2196f3;
-}
-.tel {
-  color: #212121;
-}
-.tel:hover,
-.tel:focus {
-  color: #2196f3;
-}
-/* стили текста */
-.section-text {
-  color: #757575;
-}
-/* стили заголовков к тексту */
-.section-title {
-  color: #212121;
-}
-/* стили заголовков к секций */
+
 .section {
-  color: #212121;
+  color: var(-primary-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
+
+.section-text {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.8;
+}
+

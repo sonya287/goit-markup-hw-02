@@ -1,3 +1,9 @@
+/* фон #FFFFFF; */
+/* вторичный фон  #e5e5e5; */
+/* цвет заголовков #212121; */
+/* цвет основного текста #757575; */
+/* акцент #2196F3; */
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -10,14 +16,8 @@
 body {
   color: #212121;
   background-color: var(--primary-background);
+  font-family: Roboto, sans-serif;
 }
-
-/* фон #FFFFFF; */
-/* вторичный фон  #e5e5e5; */
-/* цвет заголовков #212121; */
-/* цвет основного текста #757575; */
-/* акцент #2196F3; */
-
 /* section 1 */
 .hero {
   background-color: var(--header-footer-background);
@@ -28,7 +28,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -59,25 +59,57 @@ a {
 
 .logotip {
   color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+}
+
+.logo-text {
+  color: var(--primary-background);
+  font-family: Raleway, sans-serif;
 }
 
 .logo {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
 }
 
-.adress-nav {
+.address {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.adress-link {
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
-.contact:hover,
-.contact:focus {
+.adress-nav {
+  color: var(--secondary-text-color);
+}
+
+.adress-nav-contact:hover,
+.adress-nav-contact:focus {
   color: var(--accent-color);
+}
+
+.footer .contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  display: block;
+  font-style: normal;
 }
 
 .hero-title {
@@ -90,8 +122,16 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
+}
+
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2x;
 }
 
 .link:hover,
@@ -102,13 +142,9 @@ a {
 .attention-title {
   color: var(-primary-text-color);
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .attention-text {
@@ -117,9 +153,7 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
+  line-height: 1.5;
 }
 
 .engage-title {
@@ -128,9 +162,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -145,6 +177,12 @@ a {
 
 .footer {
   background-color: var(--header-footer-background);
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .footer > .logo-text {
@@ -157,7 +195,7 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
